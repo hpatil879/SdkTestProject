@@ -11,16 +11,5 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
-        fun startDashboard() {
-        var libraryFuncResult:String = TestFunctionsClass.testFunc("Test String")
-            Log.e("Test", "libraryResult :$libraryFuncResult")
-            Toast.makeText(this@MainActivity, "called startDasboard",Toast.LENGTH_SHORT).show()
-        }
-
-        val runButton: Button =findViewById(R.id.btnRun);
-        runButton.setOnClickListener{
-            startDashboard()
-        }
     }
 }

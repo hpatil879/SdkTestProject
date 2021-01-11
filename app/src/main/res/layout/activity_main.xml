@@ -17,13 +17,22 @@
         android:orientation="vertical"
         >
 
-    <Button
-        android:id="@+id/btnRun"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Run"
-        tools:layout_editor_absoluteX="117dp"
-        tools:layout_editor_absoluteY="539dp" />
-    </LinearLayout>
+<!--    <Button-->
+<!--        android:id="@+id/btnRun"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Run"-->
+<!--        tools:layout_editor_absoluteX="117dp"-->
+<!--        tools:layout_editor_absoluteY="539dp" />-->
 
+    <fragment
+        android:id="@+id/fragment_1_trial"
+        android:name="com.hpatil879.sdktestlibrary.TestFragment"
+        android:layout_width="314dp"
+        android:layout_height="631dp"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="49dp"
+        tools:ignore="MissingConstraints" />
+
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
